@@ -35,10 +35,10 @@ async function searchRemedy() {
     }
 }
 
-// ⭐ Result Card Renderer
+// ⭐ Result Card Display Function
 function displayResults(results) {
     const container = document.getElementById("resultsContainer");
-    container.innerHTML = ""; // previous results clear
+    container.innerHTML = ""; // clear previous results
 
     results.forEach(item => {
         const card = `
