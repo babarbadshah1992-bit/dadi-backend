@@ -1,20 +1,12 @@
-[
-  {
-    "id": 1,
-    "title": "Hair Fall Remedy - Aloe + Onion",
-    "category": "Beauty",
-    "description": "Mix aloe vera gel and onion juice. Apply twice a week."
+{
+  "name": "dadi-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
   },
-  {
-    "id": 2,
-    "title": "Skin Glow - Turmeric + Honey + Milk",
-    "category": "Beauty",
-    "description": "Make a paste of turmeric, honey and milk. Apply 15 mins."
-  },
-  {
-    "id": 3,
-    "title": "Cold & Cough - Ginger Tea",
-    "category": "Health",
-    "description": "Boil ginger with water, add honey and lemon."
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
   }
-]
+}
