@@ -1,40 +1,55 @@
 console.log("Dadi Ki Dawai Loaded Successfully!");
 
-// Backend URL
+// 🔗 Apna Backend URL yaha daalo:
 const API_URL = "https://dadikidawai-backend.onrender.com/api/search";
 
 async function searchRemedy() {
-    const query = document.getElementById('searchInput').value.trim().toLowerCase();
+    const query = document.getElementById("searchInput").value.trim();
 
     if (!query) {
-        alert('Please type something (e.g. hair fall, cold, skin glow)');
+        alert("Please type something (e.g. hair fall, cold, skin glow)");
         return;
     }
 
     try {
-        // Fetch data from backend
+        // 🚀 Backend call
         const response = await fetch(${API_URL}?q=${query});
         const result = await response.json();
-        console.log("Search results:", result);
 
-        const container = document.getElementById('resultsContainer');
-        container.innerHTML = ""; // clear previous results
+        console.log("Search Results:", result);
 
         if (result.results.length === 0) {
-            container.innerHTML = "<p>No remedy found. Try another keyword.</p>";
+            alert("No remedy found. Try another keyword.");
         } else {
-            const r = result.results[0];
-            container.innerHTML = `
-                <div class="result-box">
-                    <h3>${r.title}</h3>
-                    <p><b>Category:</b> ${r.category}</p>
-                    <p>${r.description}</p>
-                </div>
-            `;
+            showResults(result.results);   // <-- IMPORTANT
         }
 
     } catch (error) {
-        console.error('Error:', error);
-        alert("Server error (backend sleeping). Try again.");
+        console.error("Error:", error);
+        alert("Server error (backend might be sleeping). Try again.");
     }
+}
+
+
+// ⭐ RESULT DISPLAY FUNCTION ⭐
+function showResults(results) {
+    const container = document.getElementById("resultsContainer");
+    container.innerHTML = ""; // clear previous search
+
+    results.forEach(item => {
+        const card = `
+            <div style="
+                border:1px solid #ccc;
+                padding:15px;
+                margin:10px 0;
+                border-radius:10px;
+                background:#fff;
+            ">
+                <h3>${item.title}</h3>
+                <p><b>Category:</b> ${item.category}</p>
+                <p>${item.description}</p>
+            </div>
+        `;
+        container.innerHTML += card;
+    });
 }
