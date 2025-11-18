@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Hair Fall Remedy - Aloe + Onion",
+    "category": "Beauty",
+    "description": "Mix aloe vera gel and onion juice. Apply twice a week."
+  },
+  {
+    "id": 2,
+    "title": "Skin Glow - Turmeric + Honey + Milk",
+    "category": "Beauty",
+    "description": "Make a paste of turmeric, honey and milk. Apply for 15 minutes."
+  },
+  {
+    "id": 3,
+    "title": "Cold & Cough - Ginger Tea",
+    "category": "Health",
+    "description": "Boil ginger with water, add honey and lemon before drinking."
+  }
+]
