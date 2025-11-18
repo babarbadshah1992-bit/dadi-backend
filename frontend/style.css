@@ -1,11 +1,135 @@
-body {
+/* BASIC RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f7f7f7;
   padding: 20px;
-  background: #f4f4f4;
 }
-h1 {
-  color: #008000;
+
+/* HEADER */
+header {
+  text-align: center;
+  margin-bottom: 25px;
 }
-p {
-  font-size: 18px;
+
+header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2b7a0b;
+}
+
+header p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* SEARCH BAR */
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 8px;
+}
+
+.search-box input {
+  width: 70%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #999;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 12px 18px;
+  background: #2b7a0b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* CATEGORY CARDS */
+.categories {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #777;
+}
+
+/* TRENDING SECTION */
+.trending {
+  margin: 25px 0;
+}
+
+.trending h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #2b7a0b;
+}
+
+.trending ul li {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+/* PRODUCTS */
+.products {
+  margin: 25px 0;
+}
+
+.products h2 {
+  color: #2b7a0b;
+  margin-bottom: 10px;
+}
+
+.product-card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.product-card button {
+  margin-top: 10px;
+  background: #0077ff;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  color: #555;
+  font-size: 14px;
 }
