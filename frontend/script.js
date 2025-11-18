@@ -1,50 +1,49 @@
 console.log("Dadi Ki Dawai Loaded Successfully!");
 
-// 🔗 Apna Backend URL yaha daalo:
+// 🔗 Backend API URL
 const API_URL = "https://dadikidawai-backend.onrender.com/api/search";
 
 async function searchRemedy() {
     const query = document.getElementById("searchInput").value.trim();
 
     if (!query) {
-        alert("Please type something (e.g. hair fall, cold, skin glow)");
+        alert("Please type something (e.g., hair fall, cold, skin glow)");
         return;
     }
 
     try {
-        // 🚀 Backend call
+        // 🔥 Fetch results from backend
         const response = await fetch(${API_URL}?q=${query});
         const result = await response.json();
 
-        console.log("Search Results:", result);
+        console.log("Search results:", result);
+
+        if (!result || !result.results) {
+            alert("Something went wrong.");
+            return;
+        }
 
         if (result.results.length === 0) {
             alert("No remedy found. Try another keyword.");
         } else {
-            showResults(result.results);   // <-- IMPORTANT
+            displayResults(result.results);
         }
 
     } catch (error) {
         console.error("Error:", error);
-        alert("Server error (backend might be sleeping). Try again.");
+        alert("Server error (backend sleeping). Try again.");
     }
 }
 
-
-// ⭐ RESULT DISPLAY FUNCTION ⭐
-function showResults(results) {
+// ⭐ Result Card Renderer
+function displayResults(results) {
     const container = document.getElementById("resultsContainer");
-    container.innerHTML = ""; // clear previous search
+    container.innerHTML = ""; // previous results clear
 
     results.forEach(item => {
         const card = `
-            <div style="
-                border:1px solid #ccc;
-                padding:15px;
-                margin:10px 0;
-                border-radius:10px;
-                background:#fff;
-            ">
+            <div style="border:1px solid #ccc; padding:15px; margin:10px 0; 
+                        background:white; border-radius:10px;">
                 <h3>${item.title}</h3>
                 <p><b>Category:</b> ${item.category}</p>
                 <p>${item.description}</p>
