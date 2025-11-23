@@ -1,854 +1,341 @@
 [
   {
-    "title": "Hair fall",
-    "category": "Hair",
-    "description": "Amla, bhringraj, and coconut oil strengthen the scalp and reduce hair fall.",
-    "how_to": "Warm coconut oil + amla powder, massage scalp for 10 mins, wash after 20 mins.",
-    "keywords": ["hairfall", "baal girna", "hair loss", "thin hair"]
-  },
-  {
-    "title": "Dandruff",
-    "category": "Hair",
-    "description": "Neem and tea tree help control scalp infections and dandruff.",
-    "how_to": "Boil neem leaves, cool, rinse scalp with neem water twice weekly.",
-    "keywords": ["dandruf", "scalp flakes", "white flakes", "dry scalp"]
-  },
-  {
-    "title": "Oily scalp",
-    "category": "Hair",
-    "description": "Multani mitti absorbs excess oil and keeps scalp fresh.",
-    "how_to": "Mix multani mitti + rose water, apply on scalp for 10 mins.",
-    "keywords": ["oily hair", "chipchipa scalp", "oil scalp"]
-  },
-  {
-    "title": "Split ends",
-    "category": "Hair",
-    "description": "Aloe vera and castor oil repair dry hair ends.",
-    "how_to": "Apply aloe vera gel on ends daily.",
-    "keywords": ["splitend", "dry ends", "hair break"]
-  },
-  {
-    "title": "Grey hair",
-    "category": "Hair",
-    "description": "Curry leaves and coconut oil help slow greying.",
-    "how_to": "Boil curry leaves in coconut oil, apply when cooled.",
-    "keywords": ["white hair", "grey", "salt pepper"]
-  },
-
-  {
-    "title": "Constipation",
-    "category": "Digestion",
-    "description": "Isabgol, warm water, and ajwain improve bowel movement.",
-    "how_to": "Take 1 tsp isabgol in warm water at night.",
-    "keywords": ["kabz", "hard stool", "gastric"]
-  },
-  {
     "title": "Gas problem",
-    "category": "Digestion",
-    "description": "Ajwain + kala namak helps reduce gas instantly.",
-    "how_to": "Chew 1 tsp ajwain + pinch of salt.",
-    "keywords": ["gas", "pet me gas", "bloating", "acidity"]
+    "category": "General Wellness",
+    "description": "Jeera water reduces gas and bloating naturally.",
+    "how_to": "Boil 1 tsp jeera in water and drink warm.",
+    "keywords": ["gas", "gass", "gas pain", "pet me gas", "bloating"]
   },
   {
     "title": "Acidity",
-    "category": "Digestion",
-    "description": "Cold milk and banana soothe acid reflux.",
-    "how_to": "Drink cold milk after meals.",
-    "keywords": ["acid", "jala", "heartburn"]
+    "category": "General Wellness",
+    "description": "Saunf water cools the stomach and reduces acidity.",
+    "how_to": "Soak 1 tsp saunf in water overnight and drink.",
+    "keywords": ["acidity", "acidty", "aciditi", "heart burn", "burning chest"]
   },
   {
-    "title": "Loose motion",
-    "category": "Digestion",
-    "description": "Sabudana water and rice kanji help bind stool.",
-    "how_to": "Drink rice water twice daily.",
-    "keywords": ["diarrhea", "patla motion"]
+    "title": "Constipation",
+    "category": "Digestive Health",
+    "description": "Fiber-rich diet helps smooth bowel movement.",
+    "how_to": "Eat papaya or 1 tsp isabgol with warm water.",
+    "keywords": ["constipation", "kabz", "kabj", "motion problem"]
   },
   {
-    "title": "Loss of appetite",
-    "category": "Digestion",
-    "description": "Ginger and lemon increase digestion.",
-    "how_to": "Take ginger juice + lemon before meals.",
-    "keywords": ["bhook nahi lagna"]
-  },
-
-  {
-    "title": "Better sleep",
-    "category": "Sleep",
-    "description": "Warm milk + turmeric helps relax and improve sleep.",
-    "how_to": "Drink 1 cup warm haldi milk at night.",
-    "keywords": ["sleep", "nind", "need nahi aati", "insomnia"]
+    "title": "Loose motions",
+    "category": "Digestive Health",
+    "description": "Bananas and ORS help restore electrolytes.",
+    "how_to": "Eat 1 banana + sip ORS slowly.",
+    "keywords": ["loose motion", "dast", "diarrhea", "pani jaisa potty"]
   },
   {
-    "title": "Stress",
-    "category": "Sleep",
-    "description": "Ashwagandha calms the mind and reduces stress.",
-    "how_to": "Take 1 tsp ashwagandha with warm milk.",
-    "keywords": ["stress", "tension", "anxiety"]
+    "title": "Indigestion",
+    "category": "Digestive Health",
+    "description": "Ajwain reduces gas and indigestion symptoms.",
+    "how_to": "Chew 1/2 tsp ajwain with warm water.",
+    "keywords": ["indigestion", "digestion issue", "pet kharab"]
   },
   {
-    "title": "Fatigue",
-    "category": "Sleep",
-    "description": "Dates and jaggery boost natural energy levels.",
-    "how_to": "Eat 2 dates + 1 tsp jaggery daily.",
-    "keywords": ["weakness", "thakaan"]
+    "title": "Hair fall",
+    "category": "Hair & Beauty",
+    "description": "Onion juice improves scalp circulation.",
+    "how_to": "Apply onion juice 20 mins before bath.",
+    "keywords": ["hair fall", "hairfall", "baal girna", "thin hair"]
   },
-
+  {
+    "title": "Dandruff",
+    "category": "Hair & Beauty",
+    "description": "Neem leaves kill scalp fungus.",
+    "how_to": "Rinse hair with boiled neem water.",
+    "keywords": ["dandruff", "flakes", "khuski"]
+  },
   {
     "title": "Oily skin",
     "category": "Skin",
-    "description": "Multani mitti absorbs oil and tightens pores.",
-    "how_to": "Apply multani mitti + rose water on face for 10 mins.",
-    "keywords": ["oily", "chipchipi skin"]
+    "description": "Multani mitti absorbs excess oil effectively.",
+    "how_to": "Apply multani mitti + rose water pack twice weekly.",
+    "keywords": ["oily skin", "oil skin", "chip chip", "skin oily"]
   },
   {
     "title": "Dry skin",
     "category": "Skin",
-    "description": "Aloe vera and glycerin lock moisture.",
-    "how_to": "Apply aloe gel daily.",
-    "keywords": ["dry face", "rukhi skin"]
+    "description": "Aloe vera gel hydrates dry skin.",
+    "how_to": "Apply fresh aloe gel before sleeping.",
+    "keywords": ["dry skin", "rukhi skin", "flaky skin"]
   },
   {
     "title": "Pimples",
     "category": "Skin",
-    "description": "Neem and turmeric reduce acne inflammation.",
-    "how_to": "Apply neem paste on pimples overnight.",
-    "keywords": ["acne", "pimple", "daane"]
-  },
-  {
-    "title": "Dark circles",
-    "category": "Skin",
-    "description": "Cucumber and aloe lighten under-eye area.",
-    "how_to": "Apply cucumber juice daily.",
-    "keywords": ["under eye", "dark eyes"]
+    "description": "Tea tree oil helps reduce acne-causing bacteria.",
+    "how_to": "Apply diluted tea tree oil on pimples.",
+    "keywords": ["pimples", "acne", "muhase"]
   },
   {
     "title": "Skin dullness",
     "category": "Skin",
-    "description": "Honey + lemon brightens skin naturally.",
-    "how_to": "Apply honey + lemon for 5 mins.",
-    "keywords": ["dull", "glow kam"]
-  },
-
-  {
-    "title": "High BP",
-    "category": "Heart",
-    "description": "Garlic and banana help maintain BP levels.",
-    "how_to": "Eat 1 raw garlic clove morning.",
-    "keywords": ["blood pressure", "bp high"]
+    "description": "Turmeric brightens skin naturally.",
+    "how_to": "Apply haldi + curd mask weekly.",
+    "keywords": ["skin dull", "dull skin", "face dull"]
   },
   {
-    "title": "Low BP",
-    "category": "Heart",
-    "description": "Lemon water with salt helps stabilize BP.",
-    "how_to": "Drink lemon + salt water.",
-    "keywords": ["bp low", "blood pressure down"]
+    "title": "Dark circles",
+    "category": "Skin",
+    "description": "Cucumber cools skin and reduces dark circles.",
+    "how_to": "Place chilled cucumber slices for 10 mins.",
+    "keywords": ["dark circles", "under eye", "anndhera"]
   },
   {
-    "title": "Cholesterol",
-    "category": "Heart",
-    "description": "Flax seeds reduce bad cholesterol.",
-    "how_to": "Take 1 tsp flaxseed daily.",
-    "keywords": ["cholestrol", "lipid"]
-  },
-
-  {
-    "title": "Low hemoglobin",
-    "category": "Blood",
-    "description": "Beetroot and jaggery increase iron.",
-    "how_to": "Drink beetroot juice daily.",
-    "keywords": ["hb", "iron low", "anemia"]
+    "title": "High blood pressure",
+    "category": "Heart Health",
+    "description": "Garlic helps control blood pressure naturally.",
+    "how_to": "Eat 1 raw garlic clove morning empty stomach.",
+    "keywords": ["bp", "blood pressure", "high bp", "bp high"]
   },
   {
-    "title": "Blood sugar",
-    "category": "Blood",
-    "description": "Karela juice lowers sugar naturally.",
-    "how_to": "Drink 30ml karela juice empty stomach.",
-    "keywords": ["sugar", "diabetes"]
-  },
-
-  {
-    "title": "Cold",
-    "category": "Respiratory",
-    "description": "Ginger tea clears nasal blockage.",
-    "how_to": "Drink ginger + tulsi tea twice daily.",
-    "keywords": ["cold", "sardi", "blocked nose"]
+    "title": "Low blood pressure",
+    "category": "Heart Health",
+    "description": "Salt water increases BP instantly.",
+    "how_to": "Drink a pinch of salt in water.",
+    "keywords": ["low bp", "bp low", "chakkar"]
   },
   {
-    "title": "Cough",
-    "category": "Respiratory",
-    "description": "Honey + black pepper relieves cough.",
-    "how_to": "Take honey + pepper mix.",
-    "keywords": ["khansi", "dry cough"]
+    "title": "High blood sugar",
+    "category": "Metabolic Health",
+    "description": "Karela juice helps regulate blood sugar levels.",
+    "how_to": "Drink 50 ml karela juice empty stomach.",
+    "keywords": ["sugar", "diabetes", "suger", "high sugar"]
   },
   {
-    "title": "Sore throat",
-    "category": "Respiratory",
-    "description": "Salt water gargle reduces throat pain.",
-    "how_to": "Gargle warm salt water.",
-    "keywords": ["throat pain", "gala kharab"]
+    "title": "Low energy",
+    "category": "Energy",
+    "description": "Honey provides a quick natural energy boost.",
+    "how_to": "Take 1 spoon honey in warm water.",
+    "keywords": ["tired", "low energy", "fatigue"]
   },
   {
-    "title": "Breathlessness",
-    "category": "Respiratory",
-    "description": "Steam inhalation eases breathing.",
-    "how_to": "Take steam for 10 mins.",
-    "keywords": ["saans", "breathing issue"]
-  },
-
-  {
-    "title": "Joint pain",
-    "category": "Pain",
-    "description": "Turmeric and warm oil reduce joint stiffness.",
-    "how_to": "Apply warm mustard oil.",
-    "keywords": ["joint", "knee pain", "ghutna dard"]
+    "title": "Fatigue",
+    "category": "Energy",
+    "description": "Dates improve stamina and reduce tiredness.",
+    "how_to": "Eat 3 dates daily.",
+    "keywords": ["fatigue", "thakaan", "weakness"]
   },
   {
-    "title": "Back pain",
-    "category": "Pain",
-    "description": "Castor oil + hot water bag gives relief.",
-    "how_to": "Massage with warm castor oil.",
-    "keywords": ["backpain", "kamardard"]
+    "title": "Better sleep",
+    "category": "Sleep",
+    "description": "Warm milk relaxes the mind for better sleep.",
+    "how_to": "Drink warm milk before bed.",
+    "keywords": ["sleep", "neend", "insomnia"]
+  },
+  {
+    "title": "Stress",
+    "category": "Mental Health",
+    "description": "Ashwagandha reduces stress and anxiety.",
+    "how_to": "Take ashwagandha powder with warm milk.",
+    "keywords": ["stress", "tension", "anxiety"]
   },
   {
     "title": "Headache",
-    "category": "Pain",
-    "description": "Peppermint oil reduces tension headache.",
-    "how_to": "Apply peppermint oil on forehead.",
-    "keywords": ["sar dard", "migraine"]
-  },
-  {
-    "title": "Weak immunity",
-    "category": "General",
-    "description": "Tulsi, amla, and giloy boost natural immunity.",
-    "how_to": "Drink tulsi + amla juice daily.",
-    "keywords": ["immunity", "kamjor immunity", "immune weak"]
-  },
-  {
-    "title": "Fever",
-    "category": "General",
-    "description": "Giloy and coriander water help reduce mild fever.",
-    "how_to": "Boil giloy stem, drink warm.",
-    "keywords": ["bukhar", "mild fever", "viral fever"]
-  },
-  {
-    "title": "Body pain",
-    "category": "General",
-    "description": "Turmeric milk reduces body inflammation.",
-    "how_to": "Drink warm haldi milk at night.",
-    "keywords": ["body ache", "dard", "whole body pain"]
-  },
-  {
-    "title": "Weakness",
-    "category": "General",
-    "description": "Dates, jaggery, and soaked almonds increase energy.",
-    "how_to": "Eat 5 soaked almonds every morning.",
-    "keywords": ["weak", "fatigue", "thakaan"]
-  },
-  {
-    "title": "Dehydration",
-    "category": "General",
-    "description": "ORS and coconut water help restore hydration.",
-    "how_to": "Drink coconut water once daily.",
-    "keywords": ["pani ki kami", "hydration low"]
-  },
-
-  {
-    "title": "Weight loss",
-    "category": "Fitness",
-    "description": "Jeera water boosts metabolism naturally.",
-    "how_to": "Drink jeera soaked water on empty stomach.",
-    "keywords": ["weightloss", "motapa", "fat loss"]
-  },
-  {
-    "title": "Weight gain",
-    "category": "Fitness",
-    "description": "Banana, peanut butter, and milk help in healthy weight gain.",
-    "how_to": "Drink banana shake daily.",
-    "keywords": ["gain weight", "patla body", "increase weight"]
-  },
-  {
-    "title": "Low stamina",
-    "category": "Fitness",
-    "description": "Dates and almonds boost stamina.",
-    "how_to": "Eat dates before activity.",
-    "keywords": ["stamina", "kam stamina"]
-  },
-  {
-    "title": "Muscle cramps",
-    "category": "Fitness",
-    "description": "Potassium-rich foods reduce muscle cramps.",
-    "how_to": "Drink lemon water with a pinch of salt.",
-    "keywords": ["cramp", "leg cramp", "pain"]
-  },
-  {
-    "title": "Body heat",
-    "category": "Fitness",
-    "description": "Sabja seeds naturally cool the body.",
-    "how_to": "Soak sabja seeds in water and drink.",
-    "keywords": ["body heat", "garam body"]
-  },
-
-  {
-    "title": "Irregular periods",
-    "category": "Women",
-    "description": "Cinnamon tea helps regulate menstrual cycle.",
-    "how_to": "Drink cinnamon tea twice weekly.",
-    "keywords": ["period late", "irregular cycle"]
-  },
-  {
-    "title": "Period pain",
-    "category": "Women",
-    "description": "Ajwain water reduces abdominal cramps.",
-    "how_to": "Drink warm ajwain water during pain.",
-    "keywords": ["period pain", "cramps", "menstrual pain"]
-  },
-  {
-    "title": "White discharge",
-    "category": "Women",
-    "description": "Fenugreek seeds help maintain vaginal health.",
-    "how_to": "Drink methi water in morning.",
-    "keywords": ["white discharge", "leucorrhea"]
-  },
-  {
-    "title": "Pregnancy nausea",
-    "category": "Women",
-    "description": "Ginger helps reduce morning sickness.",
-    "how_to": "Sip ginger water slowly.",
-    "keywords": ["pregnancy nausea", "vomiting pregnancy"]
-  },
-  {
-    "title": "PCOS",
-    "category": "Women",
-    "description": "Cinnamon and flaxseeds help balance hormones.",
-    "how_to": "Take 1 tsp flaxseed daily.",
-    "keywords": ["pcos", "hormone imbalance"]
-  },
-
-  {
-    "title": "Kidney stones",
-    "category": "Kidney",
-    "description": "Lemon water reduces stone formation.",
-    "how_to": "Drink lemon water twice daily.",
-    "keywords": ["stone", "kidney stone", "pathri"]
-  },
-  {
-    "title": "UTI",
-    "category": "Kidney",
-    "description": "Cranberry juice helps prevent infection.",
-    "how_to": "Drink unsweetened cranberry juice.",
-    "keywords": ["uti", "urine infection"]
-  },
-  {
-    "title": "Frequent urination",
-    "category": "Kidney",
-    "description": "Coriander seeds reduce urinary irritation.",
-    "how_to": "Drink coriander seed water.",
-    "keywords": ["urination", "bar bar toilet"]
-  },
-  {
-    "title": "Burning urination",
-    "category": "Kidney",
-    "description": "Barley water cools urinary tract.",
-    "how_to": "Drink barley water daily.",
-    "keywords": ["burning urine", "jaldi"]
-  },
-  {
-    "title": "Swollen feet",
-    "category": "Kidney",
-    "description": "Cucumber and watermelon reduce water retention.",
-    "how_to": "Eat cucumber daily.",
-    "keywords": ["feet swelling", "water retention"]
-  },
-
-  {
-    "title": "Memory weakness",
-    "category": "Brain",
-    "description": "Brahmi improves brain function and memory.",
-    "how_to": "Take brahmi syrup daily.",
-    "keywords": ["memory", "weak memory", "bhoolna"]
-  },
-  {
-    "title": "Anger issues",
-    "category": "Brain",
-    "description": "Ashwagandha helps control stress and anger.",
-    "how_to": "Take ashwagandha with water.",
-    "keywords": ["anger", "gussa", "irritation"]
-  },
-  {
-    "title": "Low concentration",
-    "category": "Brain",
-    "description": "Walnuts improve focus and concentration.",
-    "how_to": "Eat 2 walnuts daily.",
-    "keywords": ["concentration", "focus", "dhyaan nahi"]
-  },
-  {
-    "title": "Migraine",
-    "category": "Brain",
-    "description": "Peppermint oil and ginger tea reduce migraine intensity.",
-    "how_to": "Massage peppermint oil on temples.",
-    "keywords": ["migraine", "sar dard tez"]
-  },
-  {
-    "title": "Brain fog",
-    "category": "Brain",
-    "description": "Tulsi tea clears mind and improves alertness.",
-    "how_to": "Drink tulsi tea in morning.",
-    "keywords": ["fog", "confusion", "sochna mushkil"]
-  },
-
-  {
-    "title": "Thyroid",
-    "category": "Hormones",
-    "description": "Coconut oil and selenium-rich foods support thyroid.",
-    "how_to": "Use coconut oil in food.",
-    "keywords": ["thyroid", "hypothyroid"]
-  },
-  {
-    "title": "Low energy thyroid",
-    "category": "Hormones",
-    "description": "Ashwagandha and warm water balance thyroid.",
-    "how_to": "Drink warm water empty stomach.",
-    "keywords": ["thyroid tired", "low energy"]
-  },
-  {
-    "title": "Hormonal acne",
-    "category": "Hormones",
-    "description": "Spearmint tea reduces hormonal acne.",
-    "how_to": "Drink spearmint tea daily.",
-    "keywords": ["hormonal acne", "pimples hormone"]
-  },
-  {
-    "title": "Night sweats",
-    "category": "Hormones",
-    "description": "Coriander water cools body heat.",
-    "how_to": "Drink coriander seed water.",
-    "keywords": ["night sweat", "sweating"]
-  },
-  {
-    "title": "Low libido",
-    "category": "Hormones",
-    "description": "Shatavari and ashwagandha help increase libido.",
-    "how_to": "Take shatavari powder with milk.",
-    "keywords": ["libido", "kam sex drive"]
-  },
- {
-  "title": "High blood pressure (BP)",
-  "category": "Cardio",
-  "description": "Garlic helps relax blood vessels and may support BP balance.",
-  "how_to": "Eat 1 clove raw garlic in the morning or add to warm water.",
-  "keywords": ["bp", "blood pressure", "high bp", "bp control"]
-},
+    "category": "General Wellness",
+    "description": "Peppermint oil reduces headache naturally.",
+    "how_to": "Apply diluted peppermint oil on temples.",
+    "keywords": ["headache", "sar dard", "migraine"]
+  }
+],
 {
-  "title": "Low blood pressure",
-  "category": "Cardio",
-  "description": "Salt water and raisins can help support low BP symptoms.",
-  "how_to": "Drink a glass of salted water or eat 5 soaked raisins in the morning.",
-  "keywords": ["low bp", "bp low", "dizziness", "kam bp"]
-},
-{
-  "title": "Weight loss",
-  "category": "Fitness",
-  "description": "Warm lemon water can help boost metabolism.",
-  "how_to": "Drink warm lemon water every morning.",
-  "keywords": ["weight loss", "fat loss", "patla", "motapa kam"]
-},
-{
-  "title": "Weight gain",
-  "category": "Fitness",
-  "description": "Banana with milk helps increase energy and weight.",
-  "how_to": "Drink banana milkshake daily.",
-  "keywords": ["weight gain", "motapa badhane", "wazan badhao"]
-},
-{
-  "title": "Acne (pimples)",
-  "category": "Skin",
-  "description": "Neem has antibacterial properties that help reduce acne.",
-  "how_to": "Apply neem paste to affected areas.",
-  "keywords": ["pimples", "acne", "daane", "skin infection"]
-},
-{
-  "title": "Dark circles",
-  "category": "Skin",
-  "description": "Cucumber cools and hydrates delicate under-eye skin.",
-  "how_to": "Place chilled cucumber slices under the eyes for 10 minutes.",
-  "keywords": ["dark circles", "ankh ke neeche daag", "thakan", "sleep issue"]
-},
-{
-  "title": "Dry skin",
-  "category": "Skin",
-  "description": "Aloe vera gel deeply hydrates and softens skin.",
-  "how_to": "Apply fresh aloe gel at night.",
-  "keywords": ["dry skin", "rukhi twacha", "skin hydration"]
-},
-{
-  "title": "Oily skin",
-  "category": "Skin",
-  "description": "Multani mitti absorbs excess oil and reduces greasiness.",
-  "how_to": "Apply a paste of multani mitti and rose water twice weekly.",
-  "keywords": ["oily skin", "chip chipi twacha", "skin oil"]
-},
-{
-  "title": "Dandruff",
-  "category": "Hair",
-  "description": "Lemon juice helps control scalp fungus.",
-  "how_to": "Rub lemon juice on scalp before bath.",
-  "keywords": ["dandruff", "flakes", "khushi", "scalp itching"]
-},
-{
-  "title": "Hair thinning",
-  "category": "Hair",
-  "description": "Castor oil boosts hair growth and thickness.",
-  "how_to": "Apply warm castor oil to scalp twice weekly.",
-  "keywords": ["thin hair", "kam density", "baal patle"]
-},
-{
-  "title": "Joint pain",
-  "category": "Bones",
-  "description": "Turmeric reduces inflammation and pain.",
-  "how_to": "Drink turmeric milk at night.",
-  "keywords": ["joint pain", "ghutna dard", "arthritis"]
-},
-{
-  "title": "Back pain",
-  "category": "Bones",
-  "description": "Epsom salt bath relaxes muscles and reduces stiffness.",
-  "how_to": "Mix 1 cup Epsom salt in warm water and soak body.",
-  "keywords": ["back pain", "kamardard", "muscle pain"]
-},
-{
-  "title": "Constipation in kids",
-  "category": "Kids",
-  "description": "Warm water and ghee support digestion in children.",
-  "how_to": "Give 1 tsp ghee in warm milk.",
-  "keywords": ["kids constipation", "baby potty", "bacho ki problem"]
-},
-{
-  "title": "Cough in kids",
-  "category": "Kids",
-  "description": "Honey soothes throat irritation (for kids above 1 year).",
-  "how_to": "Give half spoon warm honey at night.",
-  "keywords": ["kids cough", "baby khansi", "child cold"]
-},
-{
-  "title": "Eye strain",
-  "category": "General wellness",
-  "description": "Rose water cools and soothes tired eyes.",
-  "how_to": "Apply rose water using cotton pads for 5 minutes.",
-  "keywords": ["eye strain", "computer eyes", "dry eyes"]
-},
-{
-  "title": "Low immunity",
-  "category": "General wellness",
-  "description": "Amla boosts vitamin C and supports immunity.",
-  "how_to": "Eat 1 spoon amla powder daily.",
-  "keywords": ["immunity", "kam immunity", "weak immune"]
-},
-{
-  "title": "Throat pain",
-  "category": "General wellness",
-  "description": "Salt water gargle reduces throat irritation.",
-  "how_to": "Gargle with warm salt water twice daily.",
-  "keywords": ["throat pain", "gala dard", "sore throat"]
-},
-{
-  "title": "Low appetite",
-  "category": "Digestive",
-  "description": "Ginger stimulates digestive enzymes.",
-  "how_to": "Chew a small slice of ginger before meals.",
-  "keywords": ["low appetite", "bhook kam", "digestion issue"]
-},
-{
-  "title": "Acidity",
-  "category": "Digestive",
-  "description": "Cold milk can calm acid reflux symptoms.",
-  "how_to": "Drink half a glass of cold milk.",
-  "keywords": ["acidity", "gas", "heartburn"]
-},
-{
-  "title": "Mouth ulcers",
-  "category": "Oral",
-  "description": "Honey helps heal mouth sores naturally.",
-  "how_to": "Apply honey to ulcers 3 times a day.",
-  "keywords": ["mouth ulcer", "kaan ka chhala", "sore mouth"]
-}
-{
-  "title": "Gas & bloating",
-  "category": "Digestive",
-  "description": "Ajwain helps relieve gas, bloating, and indigestion.",
-  "how_to": "Chew 1 teaspoon ajwain with warm water.",
-  "keywords": ["gas", "bloating", "pet phoolna", "ajwain"]
-},
-{
-  "title": "Indigestion",
-  "category": "Digestive",
-  "description": "Jeera water improves digestion and reduces heaviness.",
-  "how_to": "Boil 1 tsp cumin seeds in water and drink warm.",
-  "keywords": ["indigestion", "bad digestion", "jeera water"]
-},
-{
-  "title": "Nausea",
-  "category": "Digestive",
-  "description": "Ginger naturally soothes nausea and vomiting sensation.",
-  "how_to": "Chew a small ginger piece or drink ginger tea.",
-  "keywords": ["nausea", "vomit", "ulti", "ginger"]
-},
-{
-  "title": "Loose motion",
-  "category": "Digestive",
-  "description": "ORS and banana support hydration and gut recovery.",
-  "how_to": "Drink ORS frequently and eat 1 ripe banana.",
-  "keywords": ["loose motion", "diarrhea", "patla motion"]
-},
-{
-  "title": "Vomiting",
-  "category": "Digestive",
-  "description": "Cardamom helps calm stomach irritation.",
-  "how_to": "Suck 1 elaichi slowly.",
-  "keywords": ["vomiting", "stomach irritation", "elaichi"]
+  "title": "Cold & cough",
+  "category": "General Wellness",
+  "description": "Ginger boosts immunity and soothes throat irritation.",
+  "how_to": "Drink ginger + honey tea twice daily.",
+  "keywords": ["cold", "cough", "sardi", "khansi"]
 },
 {
   "title": "Sore throat",
-  "category": "General wellness",
-  "description": "Honey and warm water soothe throat pain.",
-  "how_to": "Sip honey mixed with warm water.",
-  "keywords": ["sore throat", "gala dard", "throat issue"]
+  "category": "General Wellness",
+  "description": "Salt water gargle reduces throat pain and swelling.",
+  "how_to": "Gargle warm salt water twice.",
+  "keywords": ["sore throat", "gala dard", "throat pain"]
 },
 {
-  "title": "Seasonal cold",
-  "category": "General wellness",
-  "description": "Tulsi boosts immunity and relieves cold symptoms.",
-  "how_to": "Drink tulsi-infused warm water.",
-  "keywords": ["cold", "seasonal cold", "tulsi", "sardi"]
+  "title": "Fever weakness",
+  "category": "General Wellness",
+  "description": "Coriander water helps reduce fever discomfort.",
+  "how_to": "Drink coriander seed water warm.",
+  "keywords": ["fever", "bukhar", "weakness after fever"]
 },
 {
-  "title": "Fever support",
-  "category": "General wellness",
-  "description": "Coriander water helps reduce mild fever discomfort.",
-  "how_to": "Boil dhaniya seeds and drink warm.",
-  "keywords": ["fever", "bukhar", "dhaniya water"]
+  "title": "Chest congestion",
+  "category": "General Wellness",
+  "description": "Steam inhalation loosens mucus and clears chest.",
+  "how_to": "Inhale steam for 5 minutes.",
+  "keywords": ["congestion", "chest jam", "breathing heavy"]
 },
 {
-  "title": "Body weakness",
-  "category": "General wellness",
-  "description": "Jaggery provides energy and supports recovery.",
-  "how_to": "Eat a small piece of jaggery after meals.",
-  "keywords": ["weakness", "kamzori", "low energy"]
+  "title": "Shortness of breath",
+  "category": "General Wellness",
+  "description": "Cardamom supports breathing and relaxes airways.",
+  "how_to": "Chew 1 cardamom slowly.",
+  "keywords": ["breathing", "saans", "breath short"]
 },
 {
-  "title": "Dehydration",
-  "category": "General wellness",
-  "description": "Electrolyte drinks replenish body salts.",
-  "how_to": "Mix salt, sugar, and lemon in water and drink.",
-  "keywords": ["dehydration", "paani kami", "thirst"]
+  "title": "Allergy sneezing",
+  "category": "General Wellness",
+  "description": "Tulsi helps reduce allergy-triggered sneezing.",
+  "how_to": "Drink tulsi leaves in warm water.",
+  "keywords": ["sneeze", "allergy", "chheenk"]
 },
 {
-  "title": "Cracked heels",
-  "category": "Skin",
-  "description": "Coconut oil heals and softens cracked heels.",
-  "how_to": "Apply coconut oil before sleeping.",
-  "keywords": ["cracked heels", "pair phatna", "dry feet"]
+  "title": "Eye strain",
+  "category": "Eyes",
+  "description": "Cold rose water soothes strained and tired eyes.",
+  "how_to": "Place cotton pads soaked in rose water for 5 mins.",
+  "keywords": ["eye strain", "ankho ka dard", "computer eye pain"]
 },
 {
-  "title": "Sunburn",
-  "category": "Skin",
-  "description": "Aloe vera cools and calms sunburnt skin.",
-  "how_to": "Apply fresh aloe gel on affected area.",
-  "keywords": ["sunburn", "skin burn", "sun damage"]
+  "title": "Dry eyes",
+  "category": "Eyes",
+  "description": "Castor oil improves moisture in eyes naturally.",
+  "how_to": "Apply a tiny drop on eyelids before sleep.",
+  "keywords": ["dry eyes", "ankh sukhna"]
 },
 {
-  "title": "Skin itching",
-  "category": "Skin",
-  "description": "Neem water reduces itching and irritation.",
-  "how_to": "Bathe with neem-boiled water.",
-  "keywords": ["itching", "khujli", "skin allergy"]
+,
+{
+  "title": "Period pain",
+  "category": "Women's Health",
+  "description": "Ajwain tea relaxes muscles and reduces menstrual cramps.",
+  "how_to": "Boil 1 tsp ajwain in water and drink warm.",
+  "keywords": ["period pain", "cramps", "mens pain", "period cramp"]
 },
 {
-  "title": "Wrinkles",
-  "category": "Skin",
-  "description": "Vitamin E nourishes skin and reduces fine lines.",
-  "how_to": "Apply Vitamin E capsule oil at night.",
-  "keywords": ["wrinkles", "aging", "fine lines"]
+  "title": "Irregular periods",
+  "category": "Women's Health",
+  "description": "Cinnamon balances hormones naturally.",
+  "how_to": "Drink cinnamon water morning and evening.",
+  "keywords": ["irregular periods", "period irregular", "mens irregular"]
 },
 {
-  "title": "Hair dryness",
-  "category": "Hair",
-  "description": "Coconut oil deeply conditions dry hair.",
-  "how_to": "Warm oil massage twice weekly.",
-  "keywords": ["dry hair", "rough hair", "hair moisture"]
+  "title": "White discharge",
+  "category": "Women's Health",
+  "description": "Fenugreek helps reduce excess white discharge.",
+  "how_to": "Drink warm methi water every morning.",
+  "keywords": ["white discharge", "safed pani", "luecorrhea"]
 },
 {
-  "title": "Split ends",
-  "category": "Hair",
-  "description": "Castor oil helps protect and repair split ends.",
-  "how_to": "Apply slight oil to hair ends.",
-  "keywords": ["split ends", "damaged hair", "hair breakage"]
+  "title": "Pregnancy nausea",
+  "category": "Women's Health",
+  "description": "Ginger relieves early-pregnancy nausea safely.",
+  "how_to": "Chew a small ginger piece slowly.",
+  "keywords": ["pregnancy nausea", "morning sickness", "vomit pregnancy"]
 },
 {
-  "title": "Oily scalp",
-  "category": "Hair",
-  "description": "Aloe vera gel reduces excess scalp oil.",
-  "how_to": "Apply aloe gel on scalp for 20 minutes.",
-  "keywords": ["oily scalp", "chipchipa scalp", "oil build-up"]
-},
-{
-  "title": "Weak hair roots",
-  "category": "Hair",
-  "description": "Onion juice strengthens roots and boosts growth.",
-  "how_to": "Apply onion juice to scalp for 15 minutes.",
-  "keywords": ["weak roots", "hair strength", "onion remedy"]
-},
-{
-  "title": "Neck pain",
-  "category": "Bones",
-  "description": "Warm compress relieves muscle tension.",
-  "how_to": "Apply warm cloth to the neck for 10 minutes.",
-  "keywords": ["neck pain", "gardan dard", "muscle stiffness"]
-},
-{
-  "title": "Leg cramps",
-  "category": "Bones",
-  "description": "Potassium-rich foods help reduce cramps.",
-  "how_to": "Eat banana or drink coconut water.",
-  "keywords": ["leg cramps", "cramps", "pair me jhatka"]
- },
- {
-  "title": "Back pain",
-  "category": "Bones",
-  "description": "Turmeric milk helps reduce inflammation and supports back muscles.",
-  "how_to": "Drink warm turmeric milk at night.",
-  "keywords": ["back pain", "kamar dard", "turmeric milk"]
-},
-{
-  "title": "Shoulder pain",
-  "category": "Bones",
-  "description": "Warm oil massage reduces stiffness and improves movement.",
-  "how_to": "Massage shoulder with warm mustard oil.",
-  "keywords": ["shoulder pain", "kandha dard", "stiffness"]
-},
-{
-  "title": "Joint stiffness",
-  "category": "Bones",
-  "description": "Fenugreek seeds help lubricate joints and reduce stiffness.",
-  "how_to": "Eat 1 tsp soaked methi seeds in the morning.",
-  "keywords": ["joint stiffness", "joints", "methi"]
-},
-{
-  "title": "Arthritis pain",
-  "category": "Bones",
-  "description": "Turmeric reduces inflammation and joint pain naturally.",
-  "how_to": "Take 1 tsp haldi with warm water.",
-  "keywords": ["arthritis", "joint pain", "haldi"]
-},
-{
-  "title": "Knee pain",
-  "category": "Bones",
-  "description": "Epsom salt relaxes muscles and reduces knee swelling.",
-  "how_to": "Soak legs in warm water with Epsom salt.",
-  "keywords": ["knee pain", "ghutna dard", "leg pain"]
-},
-{
-  "title": "Low BP",
-  "category": "Heart",
-  "description": "Salt water brings BP to normal quickly.",
-  "how_to": "Drink a glass of lemon water with a pinch of salt.",
-  "keywords": ["low bp", "bp low", "blood pressure"]
-},
-{
-  "title": "High BP",
-  "category": "Heart",
-  "description": "Garlic helps control blood pressure naturally.",
-  "how_to": "Chew 1 raw garlic clove daily.",
-  "keywords": ["high bp", "bp high", "blood pressure"]
-},
-{
-  "title": "Palpitations",
-  "category": "Heart",
-  "description": "Magnesium-rich foods calm heart palpitations.",
-  "how_to": "Eat banana or drink coconut water.",
-  "keywords": ["palpitation", "heart fast", "dil tez dhadakna"]
-},
-{
-  "title": "Chest heaviness",
-  "category": "Heart",
-  "description": "Warm water helps reduce chest congestion naturally.",
-  "how_to": "Sip warm water frequently.",
-  "keywords": ["chest heaviness", "bhari seena", "congestion"]
-},
-{
-  "title": "Stress relief",
-  "category": "Mind",
-  "description": "Chamomile tea calms stress and relaxes the mind.",
+  "title": "Sleep anxiety",
+  "category": "Mental Health",
+  "description": "Chamomile tea relaxes the nervous system.",
   "how_to": "Drink chamomile tea before bed.",
-  "keywords": ["stress", "tension", "relax tea"]
+  "keywords": ["sleep anxiety", "sleep problem", "neend nahi aati"]
 },
 {
-  "title": "Anxiety",
-  "category": "Mind",
-  "description": "Deep breathing helps reduce anxiety symptoms fast.",
-  "how_to": "Practice slow deep breathing for 2 minutes.",
-  "keywords": ["anxiety", "ghabrahat", "stress attack"]
-},
-{
-  "title": "Low concentration",
-  "category": "Mind",
-  "description": "Brahmi improves focus and memory.",
-  "how_to": "Take brahmi in warm milk.",
-  "keywords": ["focus", "concentration", "memory weak"]
-},
-{
-  "title": "Poor memory",
-  "category": "Mind",
-  "description": "Almonds boost memory and brain sharpness.",
-  "how_to": "Eat soaked almonds every morning.",
-  "keywords": ["poor memory", "yaadash kam", "brain power"]
+  "title": "Overthinking",
+  "category": "Mental Health",
+  "description": "Brahmi helps calm excessive thoughts.",
+  "how_to": "Take brahmi with warm milk before sleep.",
+  "keywords": ["overthinking", "zayada sochna", "mind stress"]
 },
 {
   "title": "Irritability",
-  "category": "Mind",
-  "description": "Green tea helps calm mood and reduce irritability.",
-  "how_to": "Drink a cup of green tea.",
-  "keywords": ["irritability", "chidhchidhapan", "mood issue"]
+  "category": "Mental Health",
+  "description": "Green tea improves mood and reduces irritation.",
+  "how_to": "Drink a cup of green tea daily.",
+  "keywords": ["irritability", "chidhchidhapan", "angry feeling"]
 },
 {
-  "title": "Lack of sleep",
-  "category": "Sleep",
-  "description": "Warm milk helps relax your mind for better sleep.",
-  "how_to": "Drink warm milk 30 minutes before bed.",
-  "keywords": ["lack of sleep", "insomnia", "sleep issue"]
+  "title": "Anger issues",
+  "category": "Mental Health",
+  "description": "Warm water and deep breathing calm the mind.",
+  "how_to": "Practice deep breathing for 2 minutes.",
+  "keywords": ["anger", "gussa", "anger control"]
 },
 {
-  "title": "Night waking",
-  "category": "Sleep",
-  "description": "Lavender aroma promotes deeper night sleep.",
-  "how_to": "Use lavender oil near pillow.",
-  "keywords": ["night waking", "raat me uthna", "sleep break"]
+  "title": "Low appetite",
+  "category": "Digestive Health",
+  "description": "Lemon water increases hunger naturally.",
+  "how_to": "Drink fresh lemon water before meals.",
+  "keywords": ["low appetite", "bhook nahi lagna"]
 },
 {
-  "title": "Bad dreams",
-  "category": "Sleep",
-  "description": "Ashwagandha reduces stress and improves dream quality.",
-  "how_to": "Take ashwagandha at night.",
-  "keywords": ["bad dreams", "nightmares", "bure sapne"]
+  "title": "Nausea",
+  "category": "Digestive Health",
+  "description": "Cardamom helps reduce nausea instantly.",
+  "how_to": "Suck 1 elaichi slowly.",
+  "keywords": ["nausea", "vomiting", "ulti"]
 },
 {
-  "title": "Fatigue",
-  "category": "Energy",
-  "description": "Honey gives a quick energy boost naturally.",
-  "how_to": "Take 1 spoon honey in warm water.",
-  "keywords": ["fatigue", "thakaan", "low energy"]
-},
-{
-  "title": "Low stamina",
-  "category": "Energy",
-  "description": "Dates improve stamina and strength.",
-  "how_to": "Eat 2–3 dates daily.",
-  "keywords": ["low stamina", "kamzor", "energy"]
-},
-{
-  "title": "Body dehydration",
-  "category": "Energy",
-  "description": "Coconut water restores hydration quickly.",
+  "title": "Dehydration",
+  "category": "General Wellness",
+  "description": "Coconut water restores lost electrolytes.",
   "how_to": "Drink chilled coconut water.",
-  "keywords": ["dehydration", "paani ki kami", "electrolytes"]
+  "keywords": ["dehydration", "paani ki kami"]
+},
+{
+  "title": "Body weakness",
+  "category": "General Wellness",
+  "description": "Jaggery provides quick energy and reduces weakness.",
+  "how_to": "Eat a small piece after meals.",
+  "keywords": ["weakness", "body weak"]
+},
+{
+  "title": "Leg cramps",
+  "category": "Body Pain",
+  "description": "Potassium-rich banana reduces cramps.",
+  "how_to": "Eat 1 banana daily.",
+  "keywords": ["leg cramps", "cramps", "pair me jhatka"]
+},
+{
+  "title": "Aching feet",
+  "category": "Body Pain",
+  "description": "Warm water soak relaxes foot muscles.",
+  "how_to": "Soak feet in warm salt water.",
+  "keywords": ["feet pain", "pair dard"]
+},
+{
+  "title": "Dry cough",
+  "category": "General Wellness",
+  "description": "Honey naturally coats the throat and stops dry cough.",
+  "how_to": "Take 1 spoon honey slowly.",
+  "keywords": ["dry cough", "khansi", "sukhi khansi"]
+},
+{
+  "title": "Wet cough",
+  "category": "General Wellness",
+  "description": "Tulsi + ginger tea helps clear mucus.",
+  "how_to": "Drink tulsi ginger tea twice.",
+  "keywords": ["wet cough", "mucus cough"]
+},
+{
+  "title": "Low hemoglobin",
+  "category": "Blood Health",
+  "description": "Beetroot increases hemoglobin levels naturally.",
+  "how_to": "Drink beetroot juice thrice a week.",
+  "keywords": ["low hb", "hb kam", "hemoglobin low"]
+},
+{
+  "title": "Anemia",
+  "category": "Blood Health",
+  "description": "Jaggery + sesame seeds boost iron levels.",
+  "how_to": "Eat 1 spoon til + jaggery.",
+  "keywords": ["anemia", "iron deficiency"]
+},
+{
+  "title": "Immunity weak",
+  "category": "General Wellness",
+  "description": "Amla improves immunity and fights infections.",
+  "how_to": "Eat raw amla or drink juice morning.",
+  "keywords": ["immunity", "immunity weak", "kamzor immunity"]
+},
+{
+  "title": "Skin redness",
+  "category": "Skin",
+  "description": "Aloe vera reduces redness and soothes irritated skin.",
+  "how_to": "Apply fresh aloe gel twice daily.",
+  "keywords": ["skin red", "skin redness", "face red"]
 }
 ]
