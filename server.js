@@ -1,32 +1,44 @@
-
-const express = require('express');
-const cors = require('cors');
-const data = require('./data.json');
+const express = require("express");
+const cors = require("cors");
+const data = require("./data.json");
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Simple search endpoint
-app.get('/api/search', (req, res) => {
-  const q = (req.query.q || '').trim().toLowerCase();
-  if (!q) {
-    return res.json({ results: [] });
-  }
+// -----------------------------------------------
+// 🔍 Improved Fuzzy Search
+// -----------------------------------------------
+function matches(item, q) {
+  q = q.toLowerCase();
 
-  // simple fuzzy matching on title and description
-  const results = data.filter(item => {
-    const hay = (item.title + ' ' + item.description + ' ' + item.category).toLowerCase();
-    return hay.includes(q);
-  });
+  // Combine everything for flexible matching
+  const fullText =
+    (item.title + " " +
+     item.description + " " +
+     (item.keywords || []).join(" ") +
+     item.herbs.map(h => h.name + " " + (h.how_to_use || "")).join(" "))
+      .toLowerCase();
 
-  // optionally sort by relevance (length of match etc.)
+  return fullText.includes(q);
+}
+
+// -----------------------------------------------
+// 🔍 Main API: /api/search?q=your_query
+// -----------------------------------------------
+app.get("/api/search", (req, res) => {
+  const q = (req.query.q || "").trim().toLowerCase();
+  if (!q) return res.json({ results: [] });
+
+  const results = data.filter(item => matches(item, q));
+
   res.json({ results });
 });
 
-// health
-app.get('/api/health', (req, res) => res.json({ ok: true }));
+// -----------------------------------------------
+app.get("/api/health", (req, res) => res.json({ ok: true }));
 
-// start
 const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => console.log('Server running on port', PORT));
+app.listen(PORT, () =>
+  console.log("Backend running on port " + PORT)
+);
