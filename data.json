@@ -1,20 +1,654 @@
 [
   {
     "id": 1,
-    "title": "Hair Fall Remedy - Aloe + Onion",
-    "category": "Beauty",
-    "description": "Mix aloe vera gel and onion juice. Apply twice a week."
+    "title": "Gas problem",
+    "keywords": ["gas", "gass", "gas pain", "pet me gas", "gas problm", "bloating"],
+    "herbs": [
+      {
+        "name": "Ajwain + kala namak",
+        "how_to_use": "½ tsp ajwain + pinch kala namak garam paani ke sath khaye. Mostly meals ke baad."
+      },
+      {
+        "name": "Jeera water",
+        "how_to_use": "1 tsp jeera ko 5 min boil kare. Thoda thanda karke subah khaali pet piye."
+      },
+      {
+        "name": "Saunf tea",
+        "how_to_use": "1 tsp saunf ko pani me ubale, chaan ke lunch/dinner ke baad halka garm piye."
+      }
+    ]
   },
   {
     "id": 2,
-    "title": "Skin Glow - Turmeric + Honey + Milk",
-    "category": "Beauty",
-    "description": "Make a paste of turmeric, honey and milk. Apply for 15 minutes."
+    "title": "Acidity",
+    "keywords": ["acidity", "acidty", "aciditi", "burning chest", "heart burn"],
+    "herbs": [
+      {
+        "name": "Cold milk",
+        "how_to_use": "½–1 glass thanda doodh bina sugar ke dhire dhire piye jab burning feel ho."
+      },
+      {
+        "name": "Jeera + saunf water",
+        "how_to_use": "½ tsp jeera + ½ tsp saunf ko ubal kar thanda karke food ke baad piye."
+      },
+      {
+        "name": "Banana",
+        "how_to_use": "1 pakka banana heavy spicy food ke 1–2 ghante baad le sakte hain (agar suit kare to)."
+      }
+    ]
   },
   {
     "id": 3,
-    "title": "Cold & Cough - Ginger Tea",
-    "category": "Health",
-    "description": "Boil ginger with water, add honey and lemon before drinking."
+    "title": "Constipation",
+    "keywords": ["constipation", "constpation", "kabz", "stool hard", "motion problem"],
+    "herbs": [
+      {
+        "name": "Isabgol",
+        "how_to_use": "1–2 tsp isabgol ko halka garm doodh ya pani ke sath raat ko sone se pehle le."
+      },
+      {
+        "name": "Ghee in warm milk",
+        "how_to_use": "½–1 tsp ghee ko garm doodh me milakar raat ko le sakte hain (agar dairy suit kare)."
+      },
+      {
+        "name": "Papaya",
+        "how_to_use": "Subah ya shaam 1 chhota bowl pakka papaya khaye, roz kuch din tak."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Better sleep",
+    "keywords": ["sleep", "slep", "better sleep", "neend nahi aati", "insomnia"],
+    "herbs": [
+      {
+        "name": "Warm milk + kesar",
+        "how_to_use": "Raat ko sone se 30 min pehle 1 cup garm doodh me 1–2 kesar dhaage daal kar piye."
+      },
+      {
+        "name": "Chamomile tea",
+        "how_to_use": "Sone se 20–30 min pehle 1 cup chamomile herbal chai le, bina strong chai/coffee."
+      },
+      {
+        "name": "Foot oil massage",
+        "how_to_use": "Raat ko paero ko halka tel se 5–10 min massage karke dhule aur so jaye."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Hair fall",
+    "keywords": ["hair fall", "hairfall", "har fal", "baal girna", "thin hair"],
+    "herbs": [
+      {
+        "name": "Onion juice",
+        "how_to_use": "Pyaaz ka juice scalp par cotton se lagaye, 20–30 min baad mild shampoo se dhole. Week me 1–2 baar."
+      },
+      {
+        "name": "Methi dana paste",
+        "how_to_use": "Rat bhar bhigi methi ko paste bana kar scalp par 20 min lagaye, phir dhole. Week me 1 baar."
+      },
+      {
+        "name": "Amla juice",
+        "how_to_use": "Subah khaali pet 20–30 ml amla juice pani me milakar le (agar suit kare, doctor se pooch kar)."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Dandruff",
+    "keywords": ["dandruff", "danrff", "scalp flakes", "white flakes"],
+    "herbs": [
+      {
+        "name": "Neem water rinse",
+        "how_to_use": "Neem patte pani me ubal kar thanda kare, isse hafte me 1–2 baar last hair rinse kare."
+      },
+      {
+        "name": "Curd + lemon mask",
+        "how_to_use": "Dahi me thoda nimbu ras milakar scalp par 20 min lagaye, phir normal shampoo se dhole."
+      },
+      {
+        "name": "Tea tree oil",
+        "how_to_use": "2–3 boond tea tree oil ko carrier oil (coconut) me milakar scalp par halka massage kare."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Skin dullness",
+    "keywords": ["dull skin", "skin dull", "glow kam", "skn dal"],
+    "herbs": [
+      {
+        "name": "Haldi + milk pack",
+        "how_to_use": "1 pinch haldi + 1 tsp milk/malai mix kare, face par patla layer 8–10 min lagaye, fir dhole."
+      },
+      {
+        "name": "Aloe vera gel",
+        "how_to_use": "Fresh aloe gel raat ko clean face par patla layer me lagaye, morning normal pani se dhole."
+      },
+      {
+        "name": "Orange peel powder",
+        "how_to_use": "Orange peel powder + dahi se paste banaye, week me 1 baar soft scrub jaisa use kare."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Pimples / Acne",
+    "keywords": ["pimples", "pimple", "acne", "akne", "breakout"],
+    "herbs": [
+      {
+        "name": "Neem paste",
+        "how_to_use": "Neem patto ka paste sirf pimple area par 10–15 min lagaye, phir dhole. Week me 2–3 baar."
+      },
+      {
+        "name": "Multani mitti pack",
+        "how_to_use": "Multani mitti + rose water se paste bana kar T-zone par 10 min lagaye, fully dry hone se pehle dhole."
+      },
+      {
+        "name": "Tea tree spot",
+        "how_to_use": "1 boond tea tree oil ko carrier oil me dilute karke sirf pimple par hi raat ko lagaye."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "High BP",
+    "keywords": ["high bp", "bp high", "blood pressure high", "hypertn"],
+    "herbs": [
+      {
+        "name": "Garlic empty stomach",
+        "how_to_use": "Subah khaali pet 1–2 kachcha lahsun kali paani ke sath nigalna (doctor se pooch kar)."
+      },
+      {
+        "name": "Lemon water",
+        "how_to_use": "Din me 1–2 baar nimbu pani bina extra namak/sugar ke le, hydration ke liye."
+      },
+      {
+        "name": "Beetroot",
+        "how_to_use": "Roz diet me ½–1 chhota beetroot salad/juice ke form me add kare (agar doctor allow kare)."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Low BP",
+    "keywords": ["low bp", "bp low", "blood pressure low", "chakkar"],
+    "herbs": [
+      {
+        "name": "Salt water",
+        "how_to_use": "Zyada weakness lage to 1 glass pani me thoda namak + sugar mila kar ORS jaisa peeye (doctor ke guidance se)."
+      },
+      {
+        "name": "Raisins (kishmish)",
+        "how_to_use": "8–10 kishmish raat bhar bhigo kar subah khaali pet kha sakte hain."
+      },
+      {
+        "name": "Lemon honey water",
+        "how_to_use": "1 glass pani me nimbu + thoda shahad, slow sips me piye."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "High blood sugar",
+    "keywords": ["sugar", "diabetes", "high sugar", "sugr", "diabts"],
+    "herbs": [
+      {
+        "name": "Karela juice",
+        "how_to_use": "Subah khaali pet thoda karela juice pani me dilute karke, doctor ki advice se hi le."
+      },
+      {
+        "name": "Methi water",
+        "how_to_use": "Raat bhar 1 tsp methi dana bhigo kar subah pani piye, dane chaba sakte hain agar suit kare."
+      },
+      {
+        "name": "Cinnamon",
+        "how_to_use": "Chhota tukda dalchini chai/garam pani me daal kar din me 1 baar le (doctor se pooch kar)."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Thyroid support",
+    "keywords": ["thyroid", "thyrod", "throid", "harmone issue"],
+    "herbs": [
+      {
+        "name": "Coconut oil",
+        "how_to_use": "Cooking me refined oil ki jagah thoda coconut oil use kar sakte hain (doctor se discuss karke)."
+      },
+      {
+        "name": "Jeera water",
+        "how_to_use": "Subah ya raat ko 1 tsp jeera ubal kar pani piye, digestion support ke liye."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Weak digestion",
+    "keywords": ["weak digestion", "digestion weak", "heaviness", "indigestion"],
+    "herbs": [
+      {
+        "name": "Jeera + ajwain mix",
+        "how_to_use": "Barabar matra me jeera, ajwain bhun kar powder bana le. ½ tsp khane ke baad pani ke sath le."
+      },
+      {
+        "name": "Buttermilk (chaas)",
+        "how_to_use": "Lunch ke baad namkeen nahi, halka jeera + dhaniya wali chaas le sakte hain."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Back pain",
+    "keywords": ["back pain", "kamar dard", "backache"],
+    "herbs": [
+      {
+        "name": "Warm oil massage",
+        "how_to_use": "Sarson ya til ke tel ko halka garm karke kamar par soft massage kare, phir garam kapde se cover kare."
+      },
+      {
+        "name": "Haldi milk",
+        "how_to_use": "Raat ko ½ tsp haldi garm doodh me mila kar le, agar dairy suit kare."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Joint pain",
+    "keywords": ["joint pain", "jont pn", "ghutna dard", "joints dard"],
+    "herbs": [
+      {
+        "name": "Flax seeds",
+        "how_to_use": "Roz 1–2 tsp bhune flax seeds ko chaba kar ya powder bana ke le sakte hain."
+      },
+      {
+        "name": "Turmeric",
+        "how_to_use": "Khane me haldi thodi badha sakte hain, ya raat ko haldi doodh (doctor se pooch kar)."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Period pain",
+    "keywords": ["period pain", "cramps", "priod pain", "mens dard"],
+    "herbs": [
+      {
+        "name": "Hot water bag",
+        "how_to_use": "Lower abdomen par hot water bag 10–15 min rakh kar mild relief mil sakta hai."
+      },
+      {
+        "name": "Ajwain tea",
+        "how_to_use": "½ tsp ajwain ko pani me ubal kar halka garm chai jaisa piye (agar doctor mana na kare)."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Stress",
+    "keywords": ["stress", "stess", "tanav", "tension"],
+    "herbs": [
+      {
+        "name": "Brahmi",
+        "how_to_use": "Brahmi based herbal chai ya supplement doctor ki advice se use kar sakte hain."
+      },
+      {
+        "name": "Chamomile tea",
+        "how_to_use": "Shaam ya raat ko 1 cup chamomile tea le, mobile screen se break ke sath."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Anxiety",
+    "keywords": ["anxiety", "anexity", "ghabrahat", "chinta"],
+    "herbs": [
+      {
+        "name": "Ashwagandha",
+        "how_to_use": "Ashwagandha powder/tablet sirf doctor ki guidance se, suitable dose me le."
+      },
+      {
+        "name": "Tulsi tea",
+        "how_to_use": "Din me 1–2 baar tulsi wali herbal chai le sakte hain, caffeine kum rakhe."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Fatty liver support",
+    "keywords": ["fatty liver", "liver fat", "liver issue"],
+    "herbs": [
+      {
+        "name": "Amla juice",
+        "how_to_use": "Subah 20–30 ml amla juice pani me milakar, doctor se pooch kar use kare."
+      },
+      {
+        "name": "Lemon water",
+        "how_to_use": "Din me 1–2 baar nimbu pani light form me, bina zyada namak/sugar."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Cold & cough",
+    "keywords": ["cold", "cough", "khansi", "sardi"],
+    "herbs": [
+      {
+        "name": "Ginger tea",
+        "how_to_use": "Adrak ka chhota tukda chai me daal kar garam chai piye, din me 1–2 baar."
+      },
+      {
+        "name": "Haldi milk",
+        "how_to_use": "Raat ko haldi doodh le, throat soothing ke liye (agar dairy suit kare)."
+      },
+      {
+        "name": "Tulsi leaves",
+        "how_to_use": "2–3 tulsi patte chaba sakte hain ya kadha me daal kar le sakte hain."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Headache",
+    "keywords": ["headache", "sir dard", "head pain", "hedak"],
+    "herbs": [
+      {
+        "name": "Ginger tea",
+        "how_to_use": "Halka adrak wali chai ya ginger water sips me le sakte hain."
+      },
+      {
+        "name": "Peppermint oil",
+        "how_to_use": "Diluted peppermint oil ko temple par halka massage kare, aankho se door rakhe."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Migraine-type pain",
+    "keywords": ["migraine", "migrain", "half headache", "migren"],
+    "herbs": [
+      {
+        "name": "Dark quiet rest",
+        "how_to_use": "Dark, quiet room me lete hue deep breathing kare 10–15 min."
+      },
+      {
+        "name": "Ginger",
+        "how_to_use": "Adrak ko pani me ubal kar halka sips le, ya doctor se pooch kar ginger supplement."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Fever support",
+    "keywords": ["fever", "bukhar", "temperature", "fvr"],
+    "herbs": [
+      {
+        "name": "Tulsi + ginger kadha",
+        "how_to_use": "Tulsi, adrak, kali mirch ko pani me ubal kar kadha bana kar halki sips le."
+      },
+      {
+        "name": "Giloy juice",
+        "how_to_use": "Giloy juice doctor ki advice par, proper dose me use kare."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Sore throat",
+    "keywords": ["sore throat", "gala dard", "throat pain"],
+    "herbs": [
+      {
+        "name": "Salt water gargle",
+        "how_to_use": "Gungune pani me pinch namak daal kar din me 2–3 baar gargle kare."
+      },
+      {
+        "name": "Honey + warm water",
+        "how_to_use": "1 tsp shahad gungune pani me mila kar dheere dhire piye."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Indigestion",
+    "keywords": ["indigestion", "food not digest", "heaviness", "pet ful"],
+    "herbs": [
+      {
+        "name": "Lemon + honey water",
+        "how_to_use": "1 glass gungune pani me nimbu + thoda shahad milakar meal ke beech time le."
+      },
+      {
+        "name": "Buttermilk",
+        "how_to_use": "Lunch ke baad jeera, dhaniya, thoda kala namak wali chaas le."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Loose motion / Diarrhea",
+    "keywords": ["loose motion", "diarrhea", "pet kharab", "dieria"],
+    "herbs": [
+      {
+        "name": "ORS / salt-sugar water",
+        "how_to_use": "ORS ya 1 glass pani me salt + sugar sips me piye, dehydration se bachne ke liye."
+      },
+      {
+        "name": "Curd & rice",
+        "how_to_use": "Plain dahi + steamy rice thoda thoda karke le, masala avoid kare."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Vomiting / Nausea",
+    "keywords": ["vomiting", "nausea", "ulti", "vomting"],
+    "herbs": [
+      {
+        "name": "Lemon water",
+        "how_to_use": "Thoda nimbu pani chhote sips me piye, ek sath bahut nahi."
+      },
+      {
+        "name": "Ginger",
+        "how_to_use": "Adrak ka chhota tukda ya ginger tea nausea me help kar sakti hai."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Eye redness",
+    "keywords": ["red eye", "eye red", "ankh lal", "eye irritation"],
+    "herbs": [
+      {
+        "name": "Rose water (external)",
+        "how_to_use": "Cotton pad me gulab jal laga kar closed eyes par 5–10 min rakhe."
+      },
+      {
+        "name": "Cold compress",
+        "how_to_use": "Thanda paani me bheega kapda aankho par kuch min rakhe, screen se break le."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Dark circles",
+    "keywords": ["dark circles", "dark under eye", "eye dark"],
+    "herbs": [
+      {
+        "name": "Cucumber slices",
+        "how_to_use": "Kheere ke slice thande karke 10–15 min eyes par rakhe."
+      },
+      {
+        "name": "Potato juice",
+        "how_to_use": "Kachche aloo ka juice cotton se dark area par 10 min lagaye, phir dhole."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Low immunity",
+    "keywords": ["low immunity", "weak immunity", "imune weak"],
+    "herbs": [
+      {
+        "name": "Amla",
+        "how_to_use": "Amla juice ya raw amla ko diet me daily add kare (doctor se pooch kar)."
+      },
+      {
+        "name": "Haldi + black pepper",
+        "how_to_use": "Haldi me thoda kali mirch add karke khane me use kare."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Weight loss support",
+    "keywords": ["weight loss", "fat loss", "wight los"],
+    "herbs": [
+      {
+        "name": "Lemon honey water",
+        "how_to_use": "Subah gungune pani me nimbu + thoda shahad, heavy breakfast ke saath balanced diet me."
+      },
+      {
+        "name": "Green tea",
+        "how_to_use": "Din me 1–2 cup green tea, bina sugar ke, chai/coffee ki jagah."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Weight gain support",
+    "keywords": ["weight gain", "gain weight", "wight gain", "underweight"],
+    "herbs": [
+      {
+        "name": "Banana shake",
+        "how_to_use": "Banana + doodh ka shake doctor se pooch kar diet me add kare."
+      },
+      {
+        "name": "Dates",
+        "how_to_use": "Din me 3–5 khajoor snack ke roop me le sakte hain."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Ulcer-type discomfort",
+    "keywords": ["ulcer", "stomach ulcer", "pet me jalan"],
+    "herbs": [
+      {
+        "name": "Banana",
+        "how_to_use": "Din me 1–2 baar soft ripe banana le sakte hain, agar doctor allow kare."
+      },
+      {
+        "name": "Coconut water",
+        "how_to_use": "Din me 1 glass nariyal pani le, spicy/oily food avoid kare."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Heartburn",
+    "keywords": ["heartburn", "chest burning", "acid burn"],
+    "herbs": [
+      {
+        "name": "Saunf chew",
+        "how_to_use": "Khana khane ke baad ½ tsp saunf chaba sakte hain."
+      },
+      {
+        "name": "Cold milk",
+        "how_to_use": "Thanda doodh halki si matra me dhire dhire piye, agar suit kare."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Dry skin",
+    "keywords": ["dry skin", "skin dry", "rukhi skin"],
+    "herbs": [
+      {
+        "name": "Coconut oil",
+        "how_to_use": "Snan ke baad halki si coconut oil skin par massage kare."
+      },
+      {
+        "name": "Aloe vera",
+        "how_to_use": "Fresh aloe gel ko night me dry area par lagaye, morning dhole."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Oily skin",
+    "keywords": ["oily skin", "oil skin", "sticky face", "oilli skn"],
+    "herbs": [
+      {
+        "name": "Multani mitti pack",
+        "how_to_use": "1 tbsp multani mitti + rose water se paste bana kar 8–10 min ke liye face par lagaye, phir dhole."
+      },
+      {
+        "name": "Rose water toner",
+        "how_to_use": "Cotton pad se din me 2–3 baar face par rose water wipe kare."
+      },
+      {
+        "name": "Aloe vera gel",
+        "how_to_use": "Raat ko thin layer aloevera gel laga kar so jaye, subah face wash kare."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Allergy (mild)",
+    "keywords": ["allergy", "alergy", "itching", "sneezing"],
+    "herbs": [
+      {
+        "name": "Local honey",
+        "how_to_use": "Daily chhoti matra me local shahad kha sakte hain (agar allergy nahi hai)."
+      },
+      {
+        "name": "Steam inhalation",
+        "how_to_use": "Garum paani ki bhaap 5–10 min le, aankhe closed rakhe."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Sinus congestion",
+    "keywords": ["sinus", "nose block", "sinus pain"],
+    "herbs": [
+      {
+        "name": "Steam",
+        "how_to_use": "Garam bhaap me thoda ajwain ya eucalyptus oil daal kar 5–7 min inhale kare."
+      },
+      {
+        "name": "Ginger tea",
+        "how_to_use": "Din me 1–2 baar ginger wali chai le, cold drinks avoid kare."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Chest congestion",
+    "keywords": ["chest congestion", "chest jam", "cough chest"],
+    "herbs": [
+      {
+        "name": "Honey + ginger",
+        "how_to_use": "Adrak ka rasa + shahad thodi matra me din me 2–3 baar le (doctor ki advice se)."
+      },
+      {
+        "name": "Steam inhalation",
+        "how_to_use": "Chest jam ke liye garam steam slowly inhale kare."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Low energy / fatigue",
+    "keywords": ["fatigue", "low energy", "thakan", "tired"],
+    "herbs": [
+      {
+        "name": "Dates",
+        "how_to_use": "Din me 3–5 khajoor snack ke roop me, doctor ke guidance se sugar dhyan me rakh kar."
+      },
+      {
+        "name": "Coconut water",
+        "how_to_use": "1–2 baar nariyal pani le sakte hain hydration aur minerals ke liye."
+      }
+    ]
   }
 ]
